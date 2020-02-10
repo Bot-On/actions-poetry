@@ -24,6 +24,12 @@ RUN apt-get update \
       xz-utils \
       zlib1g-dev \
       libsnappy-dev \
+      postgresql-server-dev-all \
+      libpq-dev \
+      python-psycopg2 \
+      libsasl2-dev \
+      libldap2-dev \
+      libssl-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
